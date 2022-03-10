@@ -82,7 +82,7 @@ class _EmiState extends State<Emi> {
         ),
       ),
       appBar: AppBar(
-        title: Text('Emi Calc'),
+        title: Text('Emi Calculator'),
         backgroundColor: Colors.deepOrangeAccent,
       ),
     );
