@@ -2,20 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 
 class Chart extends StatelessWidget {
-  int a=0;
-  int b=0;
+  int a = 0;
+  int b = 0;
   Chart({required int a, required int b}) {
-    this.a=a;
+    this.a = a;
     this.b = b;
   }
-  
 
   @override
   Widget build(BuildContext context) {
     Map<String, double> dataMap = {
-    "Loan Amount": a.toDouble(),
-    "Total Interest": b.toDouble(),
-  };
+      "Loan Amount": a.toDouble(),
+      "Total Interest": b.toDouble(),
+    };
     return Container(
       child: PieChart(
         dataMap: dataMap,
