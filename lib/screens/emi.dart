@@ -68,7 +68,9 @@ class _EmiState extends State<Emi> {
               style: TextStyle(fontSize: 30),
             ),
             Chart(a: loanAmount, b: total_interest.toInt()),
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
             Text(
               'Loan EMI = \u{20B9} $emi',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
